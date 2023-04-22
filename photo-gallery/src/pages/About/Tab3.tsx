@@ -16,7 +16,7 @@ const Tab3: React.FC = () => {
             <IonTitle size="large">About Ionic App</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Tab 3 page" />
+        <ExploreContainer name="Documentation about UI Ionic Components" />
       </IonContent>
     </IonPage>
   );

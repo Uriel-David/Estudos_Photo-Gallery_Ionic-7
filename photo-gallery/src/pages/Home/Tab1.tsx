@@ -1,4 +1,5 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonContent, IonHeader, IonLabel, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import ExploreContainer from '../../components/ExploreContainer';
 import './Tab1.css';
 
 const Tab1: React.FC = () => {
@@ -15,6 +16,7 @@ const Tab1: React.FC = () => {
             <IonTitle size="large">Welcome to APP - Photo Gallery</IonTitle>
           </IonToolbar>
         </IonHeader>
+        <ExploreContainer name="Welcome to APP - Photo Gallery" />
       </IonContent>
     </IonPage>
   );
